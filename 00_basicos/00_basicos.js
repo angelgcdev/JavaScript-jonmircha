@@ -25,26 +25,47 @@
 //   console.log(`Variable Mùsica dentro del Bloque ${musica2}`);
 // }
 // console.log(`Variable Mùsica despues del Bloque ${musica2}`);
-let a;
-const PI = 3.141516;
-console.log(PI);
-// PI = 1.345;
 
-a = "kenai";
-console.log(a);
+// let a;
+// const PI = 3.141516;
+// console.log(PI);
+// // PI = 1.345;
 
-const objeto = {
-  nombre: "Jon",
-  edad: 35,
-};
+// a = "kenai";
+// console.log(a);
 
-const colores = ["rojo", "azul", "verde"];
+// const objeto = {
+//   nombre: "Jon",
+//   edad: 35,
+// };
 
-console.log(objeto);
-console.log(colores);
+// const colores = ["rojo", "azul", "verde"];
 
-objeto.correo = "jonmircha@gmail.com";
-colores.push("naranja");
+// console.log(objeto);
+// console.log(colores);
 
-console.log(objeto);
-console.log(colores);
+// objeto.correo = "jonmircha@gmail.com";
+// colores.push("naranja");
+
+// console.log(objeto);
+// console.log(colores);
+
+//Cadenas de texto aka Strings
+let nombre = "Angel";
+let apellido = "Gutierrez";
+let saludo = new String("hola mundo");
+let lorem =
+  "         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam doloribus et libero alias reprehenderit expedita neque ipsum esse, possimus, dolore in eius, hic ipsa dolor cupiditate magnam laudantium quam harum!     ";
+
+console.log({ nombre, apellido, saludo });
+console.log(
+  nombre.length,
+  apellido.length,
+  saludo.length,
+  nombre.toUpperCase(),
+  apellido.toLowerCase(),
+  lorem.includes("amet"),
+  lorem.includes("gato"),
+  lorem.trim(),
+  lorem.split(" ")
+);
